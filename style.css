@@ -99,7 +99,7 @@ header .dropdown-heading {
 .sidebar {
     position: absolute;
     top: 0%;
-    height: 140vh;
+    height: 130vh;
     background-color: #263238;
     width: 16.5vw;
 }
@@ -350,7 +350,7 @@ h4 {
     display: flex;
     position: absolute;
     background-color: #d4cfce;
-    width: 22.5vw;
+    width: 23vw;
     height: 18vh;
     top: 17%;
     left: 5%;
@@ -361,7 +361,7 @@ h4 {
 .card-1-container-2 {
     position: absolute;
     background-color: #d4cfce;
-    width: 22.5vw;
+    width: 23vw;
     height: 18vh;
     top: 55%;
     left: 5%;
