@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tomorrow';
+    line-height: 1.5384616;
+    color: #333;
+    background-color: #eeeded;
+}
+
+.top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 0%;
+    z-index: 999;
+    width: 100%;
+    height: 7vh;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    background-color: white;
+}
+
+.navbar-brand img {
+    padding-left: 26.6625px
+}
+
+.nav-items {
+    position: relative;
+    top: 0%;
+    margin-left: 55vw;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 0%;
+}
+
+header .dropdown-heading {
+    font-family: 'Tomorrow';
+    font-size: 13px;
+}
+
+.top .nav-link {
+    color: #263238;
+    text-decoration: none;
+}
+
+.top li {
+    list-style-type: none;
+}
+
+.dropdown-menu svg {
+    padding-right: 10px;
+}
+
+.dropdown-menu a {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 0.8rem;
+}
+
+.badge {
+    background-color: #b0cb1f;
+    border-color: #b0cb1f;
+    color: #fff;
+    font-weight: 200;
+}
+
+.top .font-weight-normal {
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 11px;
+
+}
+
+.top .ticket,
+.bell,
+.message {
+    color: #48545b;
+    padding-right: 10px;
+    margin-left: 1vw;
+}
+
+.top img {
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0%;
+    height: 140vh;
+    background-color: #263238;
+    width: 16.5vw;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+    /* padding: 12px 10px; */
+    min-height: 44px;
+    cursor: pointer;
+}
+
+.sidebar .nav-item {
+    padding: 1px 5px;
+    font-weight: 300;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.menu svg {
+    padding-right: 10px;
+}
+
+.menu :hover {
+    background-color: #1a2327c3;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0%;
+}
+
+.placed-student {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 16.5vw;
+    width: 83%;
+    background-color: #FFD72A;
+    height: 5vh;
+}
+
+.alert-box {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    left: 16.5vw;
+    width: 80%;
+    height: 12vh;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #E3F2FD;
+    /* border-color: #1E88E5; */
+    margin-left: 1%;
+}
+
+.text-default {
+    color: #333;
+}
+
+.card-2 {
+    font-family: 'Tomorrow', sans-serif;
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    width: 40.5%;
+    height: 52vh;
+    margin-left: -2.5vw;
+    background-image: linear-gradient(#b3cc1b, #85f781);
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+.card-3 {
+    position: absolute;
+    top: 29%;
+    left: 59.3%;
+    width: 39.5%;
+    height: 13vh;
+    background-image: linear-gradient(#b3cc1b, #85f781);
+    border-radius: 20px;
+}
+
+.card-3-heading {
+    margin-top: 11%;
+    margin-left: 60%;
+    font-size: 25px;
+
+}
+
+.card-3-sub-heading {
+    position: absolute;
+    top: 25%;
+    margin-left: 22vw;
+    font-size: 17px;
+
+}
+
+.card-3 .card-3-btn {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 65%;
+    left: 78%;
+    border-radius: 50px;
+    height: 2.7vh;
+    width: 8.5vw;
+    text-align: center;
+
+}
+
+.card-3 .btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top: 1px solid orangered;
+    width: 37svw;
+    height: 11.5vh;
+    margin-top: 2vh;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+.head {
+    font-weight: 700;
+    font-size: 19px;
+    padding: 2vh 0 0 0;
+}
+
+h4 {
+    padding-top: 1.5vh;
+    margin-bottom: 1vh;
+    font-size: 15px;
+}
+
+.bar {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.success {
+    display: flex;
+    background-color: greenyellow;
+    height: 1.5vw;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.progress-bar {
+    background-color: greenyellow;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.bar {
+    padding-top: 20px;
+    font-family: 'Tomorrow', sans-serif;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+
+.font-items {
+
+    margin-left: 8px;
+    padding: 16px;
+}
+
+.menu-items {
+    text-align: left;
+}
+
+.bottom-card {
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    top: 78%;
+    left: 17.5vw;
+    width: 81%;
+    height: 55vh;
+}
+
+.bottom-card-1,
+.bottom-card-2,
+.bottom-card-3 {
+    display: flex;
+    position: relative;
+    background-color: #263238;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 25px;
+}
+
+.bottom-card h3 {
+    color: white;
+    font-family: 'Tomorrow', sans-serif;
+    padding: 25px 15px 10px 15px;
+    font-size: 1.5rem;
+}
+
+.bottom-card-1 {
+    width: 25.5vw;
+    height: 53vh;
+
+}
+
+.bottom-card-2 {
+    width: 26.5vw;
+    height: 32vh;
+}
+
+.bottom-card-3 {
+    position: relative;
+    width: 25.5vw;
+    height: 30vh;
+}
+
+.card-1-container-1 {
+    display: flex;
+    position: absolute;
+    background-color: #d4cfce;
+    width: 22.5vw;
+    height: 18vh;
+    top: 17%;
+    left: 5%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.card-1-container-2 {
+    position: absolute;
+    background-color: #d4cfce;
+    width: 22.5vw;
+    height: 18vh;
+    top: 55%;
+    left: 5%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.card-3-container-1 {
+    position: absolute;
+    background-color: #d4cfce;
+    width: 22.5vw;
+    height: 15vh;
+    top: 29%;
+    left: 6%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.card-2-container-1 {
+    position: absolute;
+    background-color: #d4cfce;
+    width: 24vw;
+    height: 9vh;
+    top: 29%;
+    left: 5%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.card-2-container-2 {
+    position: absolute;
+    background-color: #d4cfce;
+    width: 24vw;
+    height: 9vh;
+    top: 63%;
+    left: 5%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.bottom-card-1 .logo {
+    height: 38px;
+    width: 38px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.card-1-content .status-bar {
+    margin-top: 0.5vh;
+    padding: 0% 4% 0% 4%;
+}
+.card-2-content .status-bar {
+    margin-top: 0.5vh;
+    padding: 0% 4% 0% 4%;
+}
+.center{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+    .img-circle {
+        height: 38px;
+        width: 38px;
+        border-radius: 50px;
+        margin-top: -17px;
+
+    }
+    .card-2-container-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-2-container-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-defaault {
+        font-size: 25px;
+    }
+    .bottom-card-3 .logo {
+        height: 38px;
+        width: 38px;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
